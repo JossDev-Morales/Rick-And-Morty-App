@@ -20,7 +20,7 @@ function App() {
     let location=Math.round(Math.random()*126)
     fetch(`https://rickandmortyapi.com/api/location/${location}`).then(res=> res.json()).then(res=>{
     setApi(res)
-    setTimeout(()=>{setLoader(false)},2000)
+    setTimeout(()=>{setLoader(false)},200000)
   })
   
   },[])
