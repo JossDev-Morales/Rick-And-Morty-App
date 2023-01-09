@@ -161,6 +161,7 @@ main{
   height: 95%;
   background-color: #1a1a1a;
   border-radius: 1rem;
+  padding: 2%;
 }
 .character p{
   width: 52%;
