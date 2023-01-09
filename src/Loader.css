@@ -1,0 +1,18 @@
+.Loader{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Loader img{
+    width: 60%;
+}
+
+.svg{
+    position: absolute;
+    top: 25%;
+}
+.svg svg {
+    filter: drop-shadow(0 0 5px #10bd17);
+}
